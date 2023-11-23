@@ -1,0 +1,22 @@
+.container{
+display: flex;
+margin-bottom: 45px;
+}
+.CountryDataView{
+    background-color: darkgoldenrod;
+    min-width: 300px;
+    min-height: 300px;
+    margin-left: 10px;
+}
+#WorldView{
+    width: 60vw;
+    height: 72vh;
+    overflow: auto;
+    flex: 2;
+    margin: 5px;
+ }
+ .btn-primary{
+    background-color: red;
+    margin: 50px;
+    font-size: 20px;
+ }
