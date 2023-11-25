@@ -4,6 +4,6 @@ export interface CountryData{
     region: String;
     incomeLevel: String;
     capitalCity: String;
-    longiture: String;
+    longitude: String;
     latitude: String;
 }

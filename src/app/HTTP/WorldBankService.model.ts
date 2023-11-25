@@ -13,8 +13,9 @@ export class WorldBankService{
 
     constructor(private http: HttpClient){}
 
-    getCountryInfo(countryName: String){
+    getCountryInfo(countryName: String): Observable<CountryData> {
     const url = this.apiURL+'/'+countryName+'?format=json';
+    console.log(url)
        return this.http.get<CountryData>(url)
     }
 }
