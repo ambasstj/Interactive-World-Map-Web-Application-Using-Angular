@@ -29,7 +29,7 @@ ngOnInit():void{
           const countryPaths = document.querySelectorAll(`.${countryName}`) as NodeListOf<SVGElement>;
           countryPaths.forEach((path) =>{
             path.setAttribute('stroke-width','6')
-            path.style.fill = 'lightblue';})
+            path.style.fill = 'rgba(255, 241, 49, 0.893)';})
        }
        else{
        }

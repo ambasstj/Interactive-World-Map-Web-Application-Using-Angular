@@ -3,17 +3,16 @@ display: flex;
 margin-bottom: 45px;
 }
 .CountryDataView{
-    background-image: radial-gradient(gray,rgb(226, 249, 236));
-    min-width: 300px;
-    min-height: 300px;
+    background-image: radial-gradient(rgba(48, 144, 246, 0.841),rgba(115, 237, 154, 0.594));
     margin-left: 10px;
+    padding-bottom:10px;
     box-shadow: 1px 1px  5px black;
+    margin-top: 25%;
 }
 #WorldView{
-    width: 60vw;
+    width: 55vw;
     height: 72vh;
     overflow: auto;
-    flex: 2;
     margin: 5px;
  }
  .btn-primary{
@@ -22,14 +21,17 @@ margin-bottom: 45px;
     font-size: 20px;
  }
 .datafields{
-    background-color: aliceblue;
-    margin-top: 30%;
-    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     margin-left: 5px;
     margin-right: 5px;
     text-align: left;
     box-shadow: 1px 1px 3px black;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     vertical-align: center;
 
 }
@@ -37,4 +39,7 @@ h2{
     background-color: whitesmoke;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+col{
+    background-color: bisque;
 }
