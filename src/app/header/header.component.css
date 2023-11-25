@@ -1,0 +1,7 @@
+#navBG{
+    background-image: url(../../assets/images/world.svg);
+    background-position: cover;
+}
+.h1{
+    text-shadow: 1px 1px 1px white;
+}

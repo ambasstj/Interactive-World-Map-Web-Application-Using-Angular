@@ -43,3 +43,6 @@ h2{
 col{
     background-color: bisque;
 }
+svg{
+    background-image: radial-gradient(teal, rgb(107, 181, 227));
+}
